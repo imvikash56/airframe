@@ -1,4 +1,3 @@
-import { ChevronDown } from 'react-feather'
 import DataTable from 'react-data-table-component'
 
 const DataTablesBasic = () => {
@@ -54,7 +53,6 @@ const DataTablesBasic = () => {
           className='react-dataTable'
         />
       </div>
- 
   )
 }
 

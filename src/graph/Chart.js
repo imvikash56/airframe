@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-
 import ReactApexChart from "react-apexcharts";
 
 const Chart = () => {
@@ -19,7 +18,7 @@ const Chart = () => {
       stroke: {
         curve: 'smooth'
       },
-    
+
     },
   });
 
@@ -28,7 +27,7 @@ const Chart = () => {
       <ReactApexChart options={state.options} series={state.series} type="area" height={450} />
     </div>
   );
-    }
+}
 
 export default Chart;
 

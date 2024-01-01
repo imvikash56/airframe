@@ -7,16 +7,12 @@ export default function Report() {
     <>
       <Box sx={{ display: 'flex' }}>
       <Sidebar/>
-      <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
-     
+      <Box component="main" sx={{ flexGrow: 1, p: 3 }}>    
         <Typography paragraph>
-       report
-        </Typography>
-       
+       Report
+        </Typography>       
       </Box>
-      </Box>
-   
-    </>
-    
+      </Box>  
+    </>   
   )
 }

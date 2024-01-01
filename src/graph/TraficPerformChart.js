@@ -38,8 +38,7 @@ const TraficPerformChart = () => {
         title: {
           text: 'Graphic Design per month',
         },
-      },
-  
+      }, 
     },
   });
 

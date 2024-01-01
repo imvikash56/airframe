@@ -5,17 +5,9 @@ import {
   UilUsersAlt,
   UilPackage,
   UilChart,
-  UilSignOutAlt,
 } from "@iconscout/react-unicons";
 
-// Analytics Cards imports
-import { UilUsdSquare, UilMoneyWithdrawal } from "@iconscout/react-unicons";
-import { keyboard } from "@testing-library/user-event/dist/keyboard";
 
-// Recent Card Imports
-
-
-// Sidebar Data
 export const SidebarData = [
   {
     icon: UilEstate,

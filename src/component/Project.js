@@ -17,11 +17,9 @@ export default function Project() {
       <Box sx={{ display: 'flex' }}>
         <Sidebar />
         <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
-
           <Typography paragraph>
             Project
             <div>
-
               <Row className='match-height'>
                 <Col lg='2' xs='12'>
                   <Donutday day='info' totalNo='57.81' />
@@ -52,14 +50,9 @@ export default function Project() {
                 </Col>
               </Row>
             </div>
-
-
           </Typography>
-
         </Box>
       </Box>
-
     </>
-
   )
 }

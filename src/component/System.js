@@ -21,22 +21,22 @@ export default function specification() {
               <Row>
                 <Col lg='4' md='6' xs='12'>
                   <Card>
-                  <CardTitle>Market price</CardTitle>
-                  <p>2585</p>
+                    <CardTitle>Market price</CardTitle>
+                    <p>2585</p>
                     <Bar />
                   </Card>
                 </Col>
                 <Col lg='4' md='6' xs='12'>
                   <Card>
-                  <CardTitle>Weightage</CardTitle>
-                  <p>74%</p>
+                    <CardTitle>Weightage</CardTitle>
+                    <p>74%</p>
                     <Bar1 />
                   </Card>
                 </Col>
                 <Col lg='4' md='6' xs='12'>
                   <Card>
-                  <CardTitle>Specifications</CardTitle>
-                  <p>45 MB</p>
+                    <CardTitle>Specifications</CardTitle>
+                    <p>45 MB</p>
                     <Bar2 />
                   </Card>
                 </Col>
@@ -45,29 +45,25 @@ export default function specification() {
             <div>
               <Row>
                 <Col lg='4' md='6' xs='12'>
-                <CardTitle>Market Price</CardTitle>
-                <p>34 MB</p>
+                  <CardTitle>Market Price</CardTitle>
+                  <p>34 MB</p>
                   <StepLineChart />
                 </Col>
                 <Col lg='4' md='6' xs='12'>
-                <CardTitle>Weightage</CardTitle>
-                <p>24 %</p>
+                  <CardTitle>Weightage</CardTitle>
+                  <p>24 %</p>
                   <Graphww />
                 </Col>
                 <Col lg='4' md='6' xs='12'>
-                <CardTitle>Specification</CardTitle>
-                <p>34 MB</p>
+                  <CardTitle>Specification</CardTitle>
+                  <p>34 MB</p>
                   <Specification />
                 </Col>
               </Row>
             </div>
-
           </Typography>
-
         </Box>
       </Box>
-
     </>
-
   )
 }

@@ -6,17 +6,13 @@ export default function Stock() {
   return (
     <>
       <Box sx={{ display: 'flex' }}>
-      <Sidebar/>
-      <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
-     
-        <Typography paragraph>
-   Stocks
-        </Typography>
-       
+        <Sidebar />
+        <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
+          <Typography paragraph>
+            Stocks
+          </Typography>
+        </Box>
       </Box>
-      </Box>
-   
     </>
-    
   )
 }

@@ -8,11 +8,9 @@ export default function Monitor() {
             <Box sx={{ display: 'flex' }}>
                 <Sidebar />
                 <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
-
                     <Typography paragraph>
                         Financial
                     </Typography>
-
                 </Box>
             </Box>
 

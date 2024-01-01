@@ -1,10 +1,9 @@
 // ** Third Party Components
 import PropTypes from 'prop-types'
 import { Row, Col } from 'reactstrap';
-// ** Reactstrap Imports
 import { Card, CardBody } from 'reactstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
-const Donutday = ({  day, totalNo}) => {
+const Donutday = ({ day, totalNo }) => {
   return (
     <Card className='marginBottom' >
       <CardBody >
@@ -14,9 +13,7 @@ const Donutday = ({  day, totalNo}) => {
             <p className='card-text line-ellipsis'>{totalNo}</p>
           </Col>
         </Row>
-
       </CardBody>
-
     </Card>
   )
 }

@@ -6,17 +6,13 @@ export default function Monitor() {
   return (
     <>
       <Box sx={{ display: 'flex' }}>
-      <Sidebar/>
-      <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
-     
-        <Typography paragraph>
-        Monitor
-        </Typography>
-       
+        <Sidebar />
+        <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
+          <Typography paragraph>
+            Monitor
+          </Typography>
+        </Box>
       </Box>
-      </Box>
-   
     </>
-    
   )
 }

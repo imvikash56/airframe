@@ -5,23 +5,9 @@ import ListItemButton from '@mui/material/ListItemButton';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import Checkbox from '@mui/material/Checkbox';
-import { Card, CardTitle } from 'reactstrap'
 
 export default function CheckboxList() {
   const [checked, setChecked] = React.useState([0]);
-
-  const handleToggle = (value: number) => () => {
-    const currentIndex = checked.indexOf(value);
-    const newChecked = [...checked];
-
-    if (currentIndex === -1) {
-      newChecked.push(value);
-    } else {
-      newChecked.splice(currentIndex, 1);
-    }
-
-    setChecked(newChecked);
-  };
 
   return (
     <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
@@ -30,7 +16,7 @@ export default function CheckboxList() {
 
         return (  
           <ListItem>           
-            <ListItemButton role={undefined} onClick={handleToggle(value)} dense>
+            <ListItemButton role={undefined} dense>
               <ListItemIcon>
                 <Checkbox
                   edge="start"
@@ -42,8 +28,7 @@ export default function CheckboxList() {
               </ListItemIcon>
               <ListItemText id={labelId} primary={`Line item ${value + 1}`} />
             </ListItemButton>
-          </ListItem>
-         
+          </ListItem>     
         );
       })}
     </List>
