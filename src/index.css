@@ -11,3 +11,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.marginBottom {
+  margin-top: 3px;
+}
+
+.h1Color {
+  color: blueviolet;
+}
+
+.card-transaction {
+  .transaction-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &:not(:last-child) {
+      margin-bottom: 1.2rem;
+    }
+
+    .transaction-title {
+      margin-bottom: 0.2rem;
+      margin-top: 0.2rem;
+    }
+  }
+}
+
+.time {
+  color: rgb(49, 226, 43);
+}
+
+.replays {
+  color: rgb(226, 43, 134);
+}
+
+.retry {
+  color: blueviolet;
+}
